@@ -1,0 +1,7 @@
+id = "one-dark-flat"
+name = "One Dark Flat"
+version = "0.0.1"
+schema_version = 1
+authors = ["PandaDEV"]
+description = "A port of VSCode One Dark Flat"
+repository = "https://github.com/0pandadev/zed-one-dark-flat"
