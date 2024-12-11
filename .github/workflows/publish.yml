@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: huacnlee/zed-extension-action@v1
         with:
-          extension-name: one-dark-pro
+          extension-name: one-dark-flat
           # extension-path: extensions/${{ extension-name }}
           push-to: 0PandaDEV/extensions
         env:
