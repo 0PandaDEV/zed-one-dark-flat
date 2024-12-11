@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag version (e.g., v1.0.0)'
+        required: true
+        type: string
 
 jobs:
   homebrew:
@@ -13,7 +19,6 @@ jobs:
       - uses: huacnlee/zed-extension-action@v1
         with:
           extension-name: one-dark-flat
-          # extension-path: extensions/${{ extension-name }}
           push-to: 0PandaDEV/extensions
         env:
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
