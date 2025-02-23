@@ -1,6 +1,6 @@
 id = "one-dark-flat"
 name = "One Dark Flat"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["PandaDEV"]
 description = "A port of VSCode One Dark Flat"
