@@ -7,6 +7,7 @@
       "name": "One Dark Flat",
       "appearance": "dark",
       "style": {
+        "accents": ["#D19A66", "#d35ff7", "#56B6C2"],
         "background.appearance": "opaque",
         "border": "#3e4452",
         "border.variant": "#3e4452",
